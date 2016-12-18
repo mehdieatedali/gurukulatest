@@ -4,30 +4,25 @@ This README would normally document whatever steps are necessary to get your app
 
 ### What is this repository for? gurukulaTest
 
-* AutomationTest for gurukula application in Selenium and Python 
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+* AutomationTest for gurukula application with Selenium and Python
 
 ### How do I get set up? ###
 
 The application (gurukula) is written in Java and is available at: https://github.com/PA-Reporting/staff
-You can launch the application using: java –jar .war
+You can launch the application using: java –jar .war (use Java 1.8 to access the application.)
 
 Installing Python: http://python.org/download/
 Installing IDE Pycharm: http://www.jetbrains.com/pycharm
 Installing Selenium package: pip install -U selenium
 
-* Dependencies
-* Database configuration
 * How to run tests
-* Deployment instructions
 
-### Contribution guidelines ###
+From pycharm IDE:
+- Open project in pycharm
+- right click on hoempagetests.py file on the left projectpanel
+- Run 'Unittests in homepagetests'
 
-* Writing tests
-* Code review
-* Other guidelines
+From command line:
+python homepagetests.py
 
-### Who do I talk to? ###
 
-* Repo owner or admin
-* Other community or team contact
