@@ -19,10 +19,21 @@ Installing Selenium package: pip install -U selenium
 
 From pycharm IDE:
 - Open project in pycharm
-- right click on hoempagetests.py file on the left projectpanel
-- Run 'Unittests in homepagetests'
+- right click on branchtests.py or stafftests.py file on the left projectpanel
+- Run 'Unittests in branchtests' or Run 'Unittests in stafftests'
+- For all tests you can choose testsuite.py (run testsuite)
 
 From command line:
-python homepagetests.py
+python testsuite.py
+
+### testresults of the testautomation tool will be saved in output directory
+ - Screenshots
+ - table text files
+
+### TestCases:
+TESTCASE_01 login as admin
+TESTCASE_02 add Branches
+TESTCASE_03 add Staff
+
 
 

@@ -2,7 +2,7 @@ import unittest
 from selenium import webdriver
 import re
 
-class HomePageTest(unittest.TestCase):
+class BranchTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         # create a new Firefox session
