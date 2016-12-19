@@ -68,9 +68,9 @@ class HomePageTest(unittest.TestCase):
         create_branche_button.click()
         # And type values for the fields: name, code
         name_field=self.driver.find_element_by_css_selector("input[ng-model='branch.name']")
-        name_field.send_keys('jeroen')
+        name_field.send_keys('Telecom')
         code_field=self.driver.find_element_by_css_selector("input[ng-model='branch.code']")
-        code_field.send_keys('100')
+        code_field.send_keys('204')
         # And save
         save_button=self.driver.find_element_by_css_selector("div.modal-footer > button.btn.btn-primary")
         save_button.click()
@@ -80,15 +80,15 @@ class HomePageTest(unittest.TestCase):
         # Extract table text information
         table_tbody_text=str(table_tbody.text)
         # Write table information into a file for data analysis
-        f = open('output/table.txt', 'w')
+        f = open('output/tablebranch.txt', 'w')
         f.write(table_tbody_text)
         f.close
         # find name and code in the table list
-        name=re.findall('jeroen 100', (table_tbody_text))
+        name=re.findall('Telecom 204', table_tbody_text)
         for item in name:
-            self.assertEquals('jeroen 100', item)
+            self.assertEquals('Telecom 204', item)
         # Make screenshot for Visual test
-        self.driver.save_screenshot('output/add_branches.png')
+        self.driver.save_screenshot('output/add_branch.png')
 
 
     @classmethod
