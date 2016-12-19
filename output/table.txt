@@ -1,6 +1,0 @@
-32 peter 123  View  Edit  Delete
-33 jeroen 100  View  Edit  Delete
-34 jeroen 100  View  Edit  Delete
-35 jeroen 100  View  Edit  Delete
-36 jeroen 100  View  Edit  Delete
-37 jeroen 100  View  Edit  Delete
