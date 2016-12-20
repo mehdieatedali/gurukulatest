@@ -24,6 +24,7 @@ From pycharm IDE:
 - To execute all tests, you can choose testsuite.py (run testsuite)
 - To execute all tests with HTML report, you can choose testsuite_report.py (run testsuite)
 
+
 From command line:
 python testsuite.py
 
@@ -33,9 +34,9 @@ python testsuite.py
  - Test Report
 
 ### TestCases:
-TESTCASE_01 login as admin
-TESTCASE_02 add Branch
-TESTCASE_03 add Staff
+- TESTCASE_01 login as admin
+- TESTCASE_02 add Branch
+- TESTCASE_03 add Staff
 
 
 
