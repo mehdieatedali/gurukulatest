@@ -21,7 +21,8 @@ From pycharm IDE:
 - Open project in pycharm
 - right click on branchtests.py or stafftests.py file on the left projectpanel
 - Run 'Unittests in branchtests' or Run 'Unittests in stafftests'
-- For all tests you can choose testsuite.py (run testsuite)
+- To execute all tests, you can choose testsuite.py (run testsuite)
+- To execute all tests with HTML report, you can choose testsuite_report.py (run testsuite)
 
 From command line:
 python testsuite.py
@@ -29,10 +30,11 @@ python testsuite.py
 ### testresults of the testautomation tool will be saved in output directory
  - Screenshots
  - table text files
+ - Test Report
 
 ### TestCases:
 TESTCASE_01 login as admin
-TESTCASE_02 add Branches
+TESTCASE_02 add Branch
 TESTCASE_03 add Staff
 
 

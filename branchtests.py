@@ -48,7 +48,7 @@ class BranchTests(unittest.TestCase):
         # Make screenshot for Visual test
         self.driver.save_screenshot('output/logged_as_admin.png')
 
-    '''TESTCASE_02 add Branches
+    '''TESTCASE_02 add Branch
     Given: I logged in as user admin
     When: I click on Entities / branche
     and click on Create new branch item
@@ -74,7 +74,7 @@ class BranchTests(unittest.TestCase):
         # And save
         save_button=self.driver.find_element_by_css_selector("div.modal-footer > button.btn.btn-primary")
         save_button.click()
-
+        self.driver.implicitly_wait(3)
         # Then I should see the name / code displayed in the list
         table_tbody=self.driver.find_element_by_tag_name("tbody")
         # Extract table text information

@@ -77,8 +77,8 @@ class StaffTests(unittest.TestCase):
         # And save
         save_button=self.driver.find_element_by_css_selector("div.modal-footer > button.btn.btn-primary")
         save_button.click()
-
-        # Then I should see the name / branch displayed in the list
+        self.driver.implicitly_wait(3)
+        # Then I should see the staff name / branch displayed in the list
         table_tbody_staff=self.driver.find_element_by_tag_name("tbody")
         # Extract table text information
         table_tbody_staff_text=str(table_tbody_staff.text)
