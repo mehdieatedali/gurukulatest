@@ -24,7 +24,6 @@ From pycharm IDE:
 - To execute all tests, you can choose testsuite.py (run testsuite)
 - To execute all tests with HTML report, you can choose testsuite_report.py (run testsuite)
 
-
 From command line:
 python testsuite.py
 
